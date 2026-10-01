@@ -51,7 +51,7 @@ Do not call a hidden vector a probability, or a logit a prediction, unless the p
 
 ## Numerical examples
 
-- Prefer two-dimensional vectors, small integer matrices, two attention items, or two to three classes.
+- Prefer two-dimensional vectors,three-dimensional vectors, small integer matrices, two attention items, or two to three classes.
 - Mark all invented values as **example values**, not values reported by the paper.
 - Perform the arithmetic instead of stopping at a symbolic substitution.
 - Preserve one example state across consecutive modules: the same document, entities, entity pair, vector dimensions, and previously computed outputs.
